@@ -6,13 +6,46 @@ html, body {
     background-color: #dbe4e7;
 }
 
+.products {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-rows:repeat(3, 15rem) ;
+}
+
+.large {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom left;
+}
+
+
+
+.product {
+  position: relative
+  ;
+}
+
+.product > div {
+  position: absolute;
+  bottom: 0;
+  color: rgb(229, 117, 156);
+}
+
+
 /* .header {
   /* display: flex; */
   /* align-items: center;  */
   /* justify-content: space-between;  */
 /* } */
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*!
 * Start Bootstrap - Scrolling Nav v5.0.6 (https://startbootstrap.com/template/scrolling-nav)
 * Copyright 2013-2023 Start Bootstrap
