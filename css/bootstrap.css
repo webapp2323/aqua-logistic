@@ -1,7 +1,10 @@
 html, body {
     font-size: 100%;
 }
-
+.custom-bg {
+  background-color: rgb(57, 128, 254);
+  height: auto;
+}
 .bg-base {
     background-color: #dbe4e7;
 }
@@ -9,7 +12,7 @@ html, body {
 .products {
   display: grid;
   grid-template-columns:repeat(3, 1fr);
-  grid-template-rows:repeat(3, 15rem) ;
+  grid-template-rows:repeat(3, 14rem) ;
 }
 
 .large {
@@ -25,6 +28,11 @@ img {
   object-position: bottom left;
 }
 
+.logo {
+  width: 20%;
+  /* object-fit: cover;
+  object-position: bottom left; */
+}
 
 
 .product {
@@ -35,15 +43,11 @@ img {
 .product > div {
   position: absolute;
   bottom: 0;
-  color: rgb(229, 117, 156);
+  color:rgb(255, 254, 254);
 }
 
 
-/* .header {
-  /* display: flex; */
-  /* align-items: center;  */
-  /* justify-content: space-between;  */
-/* } */
+
 
 /* @charset "UTF-8"; */
 /*!
