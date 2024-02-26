@@ -1,79 +1,85 @@
+/* Stage 1: Setting the base font size for html and body */
 html, body {
-    font-size: 100%;
-}
-.custom-bg {
+  font-size: 100%;
+  }
+  
+  /* Stage 2: Creating styles for the element with class custom-bg */
+  .custom-bg {
   background-color: rgb(57, 128, 254);
   height: auto;
-}
-.bg-base {
-    background-color: #dbe4e7;
-}
-
-.products {
+  }
+  
+  /* Stage 3: Creating styles for the element with class bg-base */
+  .bg-base {
+  background-color: #dbe4e7;
+  }
+  
+  /* Stage 4: Creating styles for the element with class products and its child elements */
+  .products {
   display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  grid-template-rows:repeat(3, 14rem) ;
-}
-
-.large {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 14rem);
+  }
+  
+  /* Stage 5: Creating styles for the element with class large */
+  .large {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-}
-
-img {
+  }
+  
+  /* Stage 6: Creating styles for the img tag */
+  img {
   width: 100%;
   object-fit: cover;
   object-position: bottom left;
-}
-
-.logo {
+  }
+  
+  /* Stage 7: Creating styles for the element with class logo */
+  .logo {
   width: 20%;
-  /* object-fit: cover;
-  object-position: bottom left; */
-}
-
-
-.product {
-  position: relative
-  ;
-}
-
-.product > div {
+  }
+  
+  /* Stage 8: Creating styles for the element with class product and its child elements */
+  .product {
+  position: relative;
+  }
+  
+  .product > div {
   position: absolute;
   bottom: 0;
-  color:rgb(255, 254, 254);
-}
-
-.social-icon {
-  /* background-color: #084298; */
-  background-image:url("../img/googl-fasebook.webp");
+  color: rgb(255, 254, 254);
+  }
+  
+  /* Stage 9: Creating styles for elements with class social-icon and its subclasses */
+  .social-icon {
+  background-image: url("../img/googl-fasebook.webp");
   width: 3rem;
   height: 3rem;
   background-position: -14.6rem -0.4rem;
   border: 1px solid transparent;
   border-radius: 50%;
   cursor: pointer;
-}
-
-.social-icon-googl {
+  }
+  
+  /* Stage 10: Creating styles for the element with class social-icon-googl and its pseudo-classes */
+  .social-icon-googl {
   background-position: -14.6rem -0.4rem;
-}
-
-.social-icon-googl:hover {
+  }
+  
+  .social-icon-googl:hover {
   background-position: -14.6rem 3.2rem;
-}
-
-.social-icon-facebook {
+  }
+  
+  /* Stage 11: Creating styles for the element with class social-icon-facebook and its pseudo-classes */
+  .social-icon-facebook {
   background-position: -3.9rem -0.4rem;
-}
-
-.social-icon-facebook:hover {
+  }
+  
+  .social-icon-facebook:hover {
   background-position: -3.9rem -3.95rem;
 }
-
-
 
 
 
