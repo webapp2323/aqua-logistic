@@ -46,6 +46,37 @@ img {
   color:rgb(255, 254, 254);
 }
 
+.social-icon {
+  /* background-color: #084298; */
+  background-image:url("../img/googl-fasebook.webp");
+  width: 3rem;
+  height: 3rem;
+  background-position: -14.6rem -0.4rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-icon-googl {
+  background-position: -14.6rem -0.4rem;
+}
+
+.social-icon-googl:hover {
+  background-position: -14.6rem 3.2rem;
+}
+
+.social-icon-facebook {
+  background-position: -3.9rem -0.4rem;
+}
+
+.social-icon-facebook:hover {
+  background-position: -3.9rem -3.95rem;
+}
+
+
+
+
+
 
 
 
