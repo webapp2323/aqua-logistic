@@ -165,6 +165,13 @@ display: none;
   cursor: pointer;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;
+
+}
+
 
 
 
