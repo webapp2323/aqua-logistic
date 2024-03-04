@@ -163,4 +163,15 @@ display: none;
   background-position: -3.9rem -3.95rem;
 }
 
+.btn-b {
+    width: 600px; 
+    height: 100px;
+    padding: 30px;
+
+    display: flex;
+            align-items: center;
+            justify-content: center; 
+           
+}
+
 
