@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Гармонія Аква Лоґістика</title>
+    <title>Sign up</title>
     <!-- Stage 1: CSS Framework Integration -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <!-- Stage 2: Local Bootstrap CSS (if applicable) -->
@@ -51,9 +51,11 @@
     <div class="bg-dark ">
         <div class="container py-2 d-flex align-items-center ">
             <div class="d-flex align-items-center mr-auto">
-                <a class=" btn btn-2px btn-light text-muted mx-0 px-4" href="registration.html"><strong>ЗАРЕЄСТРУВАТИСЬ</strong></a>
+                <a class=" btn btn-2px btn-light text-muted mx-0 px-4" href="sign up.html"><strong>ЗАРЕЄСТРУВАТИСЬ</strong></a>
                 <!-- Stage 8: Login Button and Social Icons -->
-                <a class="btn btn-2px btn-light text-muted mx-3 px-4 " id="header"><strong>УВІЙТИ   <strong> /</strong> <strong> </strong></a>
+                <!-- <a class="btn btn-2px btn-light text-muted mx-3 px-4 " id="header"><strong>УВІЙТИ ЧЕРЕЗ GOOGLE або FACEBOOK --><strong> </strong></a> -->
+                <a class="btn btn-2px btn-light text-muted mx-3 px-4 " id="header" href="index1.html"><strong>УВІЙТИ   <strong> /</strong> <strong> </strong></a>
+                
                 <div class="d-flex ">
                     <!-- Stage 9: Social Icons -->
                     <div class="social-icon social-icon-googl "></div>
@@ -69,27 +71,40 @@
                
              <div id="about" class="  m-3  bg-white text-dark ">                     
                     <div class="text-dark ">
-                        <h2>Про нас</h2>  
-                        <!-- Stage 11: Company History -->                 
-                       <h4>Історія компанії: </h4> <p>Дев'ять років плідної праці – це подорож нашої компанії, в теплому серці якої пульсує найкраще. Заснована із захопленням та вірою в зміни, наша історія насичена трудовими випробуваннями та перемогами. Протягом цього періоду ми кували справжній діамант – Гармонія Аква Логістика. З кожним роком ми вдосконалюємо наші технології, розширюємо асортимент та привносимо в світ питної води щось особливе. Наша історія – це розповідь про відданість, інновації та безмежне прагнення до якості. Приєднуйтеся до нас у подальшій подорожі, де ми продовжуємо будувати майбутнє, крапля за краплею.</p>
-                         <!-- Stage 12: Company Mission -->
-                       <h4>Наша місія</h4> <p> Місія компанії "Гармонія Аква Логістика" полягає в забезпеченні споживачів високоякісною та чистою питною водою. Ми прагнемо створювати інноваційні рішення для доступу до найкращих водних ресурсів, підтримуючи здоров'я та добробут наших клієнтів. Наша місія - це допомагати людям досягати гармонії та забезпечувати їх потреби в чистій воді, створюючи екологічно чисте та ефективне середовище для усіх.</p>
-                       <!-- Stage 13: Company Values -->
-                       <h4>Наші цінності:</h4> <p>Ми маємо глибокі переконання та принципи, які визначають культуру компанії "Гармонія Аква Логістика". Наша діяльність грунтується на таких цінностях:
+                        <h2></h2>  
+                        
+                        <body>
 
-                            <li>Якість: Ми завжди прагнемо до найвищого стандарту якості у всіх аспектах нашої роботи. Вода, яку ми надаємо, повинна бути чистою, безпечною та відповідати всім нормам.</li>
+                            <div class="container registration-container">
+                                <h2 class="text-center">Реєстрація</h2>
+                                <h4 class="text-center mb-5 text-dark">якщо ви зареєстровані тоді натисніть <strong>УВІЙТИ</strong> або заходьте через кнопки <strong>GOOGLE/FACEBOOK</strong></h4>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="username">Ім'я користувача:</label>
+                                        <input type="text" class="form-control" id="username" name="username" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Електронна пошта:</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Пароль:</label>
+                                        <input type="password" class="form-control" id="password" name="password" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirmPassword">Підтвердіть пароль:</label>
+                                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">Зареєструватися</button>
+                                </form>
+                            </div>
                             
-                            <li>Відповідальність: Ми несемо відповідальність за вплив наших дій на навколишнє середовище та громадськість. Розвиваючи бізнес, ми дбаємо про сталість та екологічні аспекти.</li>
+                            <!-- Подключение Bootstrap JS (может потребоваться изменение путей) -->
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
                             
-                            <li>Інновації: Ми завжди вдосконалюємося та впроваджуємо нові технології для того, щоб надавати клієнтам найсучасніші та найефективніші рішення.</li>
-                            
-                            <li>Співпраця: Віримо в силу співпраці, взаєморозуміння та взаємовигідного партнерства як ключових компонентів успіху. Тільки разом ми можемо досягти більших висот.</li>
-                            
-                           <li> Клієнтська орієнтованість: Наша діяльність зосереджена на задоволенні потреб наших клієнтів. Ми слухаємо їхні вподобання та завжди прагнемо надавати сервіс найвищого рівня.</li>
-                            
-                            Ці цінності є фундаментом, на якому ґрунтується розвиток та успіх компанії "Гармонія Аква Логістика".</p>
-                            <!-- Stage 14: Company Team -->
-                            <h4>Команда:</h4> <p>Група висококваліфікованих та відданих професіоналів, які діляться спільною метою створення найкращих умов для доступу до чистої питної води. Вони об'єднують зусилля, долаючи виклики та вдосконалюючи процеси, щоб забезпечити клієнтам найвищу якість та сервіс. Кожен член команди пронизаний цінностями компанії, такими як якість, відповідальність, інновації та співпраця, що визначає культуру та успіх "Гармонії Аква Логістика".</p>
+                            </body>
                             
                         </div>
                     </div>
@@ -113,9 +128,9 @@
                                             <h5 class="mb-0 text-white">Послуги</h5>
                                             <ul class="list-unstyled">
                                                 <li class="mb-2"><a href="certificates.html" class="text-muted">Сертифікати якості води</a></li>
-                                                <li class="mb-2"><a href="opt1.html" class="text-muted">Співпраця з оптовими клієнтами та доставка води</a></li>
+                                                
                                                 <li class="mb-2"><a href="#contact" class="text-muted">Питна вода в точці видачі</a></li>
-                                                <li class="mb-2"><a href="program.html" class="text-muted">Програма лояльності</a></li>
+                                               
                                                 <li class="mb-2"><a href="#services" class="text-muted">Супутні товари</a></li>
                                                 <li class="mb-2"><a href="#support" class="text-muted">Допомога ЗСУ</a></li>
                                             </ul>
